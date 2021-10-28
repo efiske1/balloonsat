@@ -1,1 +1,2 @@
 print("Katyusha")
+print("Kazachok")
