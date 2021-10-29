@@ -19,7 +19,7 @@ bme680.sea_level_pressure = 1013.25
 temperature_offset = -5
 
 if os.stat("/home/pi/EOSS-317/data_log.cvs").st_size == 0:
-    file.write("Time,TMP,Env_temp,gas,humidity,pressure,altitude,acceleration,gyro,magnitometer,\n")
+    file.write("Time,TMP,Env_temp,gas,humidity,pressure,altitude,acceleration_x,acceleration_y,acceleration_z,gyro_x,gyro_y,gyro_z,magnitometer_x,magnitometer_y,magnitometer_z,\n")
 
 while True:
    
