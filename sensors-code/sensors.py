@@ -36,5 +36,6 @@ while True:
     now= datetime.now()
     file.write(str(now)+","+str(tmp117.temperature)+","+str(bme680.temperature)+","+str(bme680.gas)+","+str(bme680.relative_humidity)+","+str(bme680.pressure)+","+str(bme680.altitude)+","+str(icm.acceleration)+","+str(icm.gyro)+","+str(icm.magnetic)+"\n")
     file.flush()
-time.sleep(5)
+    time.sleep(5)
+
 file.close()
