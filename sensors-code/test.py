@@ -1,2 +1,0 @@
-print("Katyusha")
-print("Kazachok")
